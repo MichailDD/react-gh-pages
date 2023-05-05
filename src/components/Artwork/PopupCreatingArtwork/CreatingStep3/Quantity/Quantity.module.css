@@ -1,0 +1,29 @@
+.wrap {
+	display: flex;
+	align-items: center;
+}
+
+.minus,
+.plus {
+	font-weight: 700;
+	font-size: 40px;
+	color: #fff;
+	background: transparent;
+	transition: all .2s;
+	cursor: pointer;
+}
+
+.minus {
+	margin: 0 0 5px;
+}
+
+.value {
+	text-align: center;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	width: 30px;
+}
+.disable {
+	color: rgba(255, 255, 255, 0.5)
+}

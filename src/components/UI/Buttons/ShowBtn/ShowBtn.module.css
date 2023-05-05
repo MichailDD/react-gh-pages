@@ -1,0 +1,22 @@
+.btn {
+	background: linear-gradient(270deg, rgba(136, 67, 255, 0.2) 0%, rgba(66, 54, 241, 0.2) 100%);
+	border-radius: 12px;
+	padding: 12px 32px;
+	transition: all .2s;
+	margin: 0 auto 48px;
+	display: block;
+}
+
+.title {
+	background: linear-gradient(270deg, #8743FF 0%, #D8C2FF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	font-weight: 700;
+	line-height: 16px;
+}
+
+.btn:hover{
+	box-shadow: 0 0 3px rgba(136, 67, 255);
+}
+

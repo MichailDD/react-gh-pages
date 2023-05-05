@@ -1,0 +1,21 @@
+.user-slider .swiper {
+	overflow: visible;
+	padding: 0 0 23px;
+	margin: 0 0 34px;
+}
+
+.user-slider .swiper-pagination-progressbar {
+	background: transparent;
+}
+
+.user-slider .swiper-horizontal>.swiper-pagination-progressbar, .swiper-pagination-progressbar.swiper-pagination-horizontal {
+	height: 5px;
+	top: auto;
+	bottom: 0;
+	border-radius: 99px;
+	overflow: hidden;
+}
+
+.user-slider .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+	background: rgba(255, 255, 255, 0.5);
+}

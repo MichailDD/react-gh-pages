@@ -1,0 +1,38 @@
+.wrap {
+	/* overflow: hidden; */
+	position: relative;
+}
+
+.wrap,
+.input {
+	background: #1D2228;
+	width: 100%;
+	border-radius: 12px;
+}
+
+.input,
+.input::placeholder {
+	font-size: 12px;
+	line-height: 14px;
+	color: rgba(255, 255, 255, 0.5);
+	font-weight: 600;
+	transition: all .2s;
+}
+
+.input {
+	padding: 9px 40px;
+	color: #fff;
+}
+
+.input:focus,
+.input:hover {
+	box-shadow: 0 0 4px #8743FF;
+}
+
+
+.icon {
+	position: absolute;
+	left: 12px;
+	top: 50%;
+	transform: translateY(-50%);
+}

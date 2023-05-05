@@ -1,0 +1,38 @@
+.inpTitle,
+.radioTitle {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(255, 255, 255, 0.5);
+	margin: 0 0 8px;
+}
+
+.radioTitle {
+	margin: 0 0 12px;
+}
+.inpWrap,
+.radioWrap {
+	margin: 0 0 24px;
+}
+.radioWrap,
+.titles,
+.inputs {
+	display: flex;
+	align-items: center;
+}
+
+.radioWrap {
+	gap: 16px;
+}
+
+.quantityWrap {
+	margin: 0 0 32px;
+}
+
+.titles {
+	gap: 42px;
+}
+
+.inputs {
+	gap: 30px;
+}

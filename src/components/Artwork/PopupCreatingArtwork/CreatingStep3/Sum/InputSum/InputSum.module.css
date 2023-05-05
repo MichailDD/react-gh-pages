@@ -1,0 +1,39 @@
+.wrap {
+	display: flex;
+	align-items: center;
+	gap: 9px;
+}
+.inputWrap {
+	max-width: 176px;
+	position: relative;
+}
+.input {
+	background: #1D2228;
+	border-radius: 8px;
+	color: #fff;
+	padding: 11px 65px 10px 16px;
+	display: block;
+	width: 100%;
+	position: relative;
+}
+
+.text,
+.input,
+.value {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.text,
+.value {
+	color: var(--white05Color);
+}
+
+.text {
+	position: absolute;
+	top: 50%;
+	right: 12px;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+}

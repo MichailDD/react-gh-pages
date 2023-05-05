@@ -1,0 +1,49 @@
+.userWrap,
+.emailWrap {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.userWrap {
+	gap: 21px;
+}
+.emailWrap {
+	align-items: center;
+	gap: 16px;
+}
+.inputWrap {
+	margin: 0 0 24px;
+	gap: 16px;
+}
+
+.inputTitle,
+.symbol::before {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.inputTitle {
+	margin: 0 0 8px;
+}
+
+.symbol {
+	position: relative;
+	margin: 0 0 0 24px;
+}
+
+.symbol::before {
+	content: "@";
+	position: absolute;
+	right: calc(100% + 10px);
+	bottom: 37px;
+	z-index: 12;
+}
+
+.descriptionMail {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	color: rgba(255, 255, 255, 0.5);
+}

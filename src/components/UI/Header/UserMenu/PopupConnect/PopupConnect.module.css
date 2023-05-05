@@ -1,0 +1,47 @@
+.text {
+	font-weight: 400;
+	line-height: 21px;
+	text-align: center;
+}
+
+.loadingWrap {
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	overflow: hidden;
+	position: relative;
+	margin: 0 auto 10px;
+}
+
+.loading,
+.imageWrap {
+	position: absolute;
+}
+
+.loading {	
+	animation: spin 1s linear 0s infinite;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(270deg, #8743FF 0%, #D8C2FF 100%);
+}
+
+@keyframes spin {
+	from {
+		transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+}
+
+.imageWrap {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 52px;
+	height: 52px;
+	border-radius: 100%;
+	background: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

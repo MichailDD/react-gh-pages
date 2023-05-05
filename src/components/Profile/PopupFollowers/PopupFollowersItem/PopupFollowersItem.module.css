@@ -1,0 +1,40 @@
+.item, 
+.userInfo {
+	display: flex;
+	align-items: center;
+}
+
+.item {
+	justify-content: space-between;
+	padding: 16px 10px 16px 24px;
+	transition: all .2s;
+}
+
+.item:hover {
+	background: rgba(136, 67, 255, 0.048);
+}
+
+.photo {
+	display: block;
+	width: 49px;
+	height: 49px;
+	box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.15);
+	border-radius: 12px;
+	margin: 0 12px 0 0;
+}
+
+.name {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	margin: 0 0 4px;
+}
+
+.nickname {
+	background: linear-gradient(270deg, #8743FF 0%, #D8C2FF 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	font-weight: 500;
+	line-height: 16px;
+}

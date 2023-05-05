@@ -1,0 +1,10 @@
+
+.description {
+	line-height: 18px;
+	font-weight: 500;
+	margin: 0 0 16px 0;
+}
+
+.description span {
+	color: rgba(255, 255, 255, 0.5);
+}

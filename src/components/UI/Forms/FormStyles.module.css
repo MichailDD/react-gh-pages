@@ -1,0 +1,112 @@
+.input,
+.textarea {	
+	background: #1D2228;
+	border-radius: 8px;
+	display: block;
+	width: 100%;
+	resize: none;
+	color: #fff;
+	transition: all .2s;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+}
+
+.input,
+.textarea,
+.text {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.input {
+	padding: 10px 16px 9px 10px;
+}
+.textarea {
+	max-height: 120px;
+	padding: 10px 16px 9px;
+}
+
+.textarea::-webkit-scrollbar {
+	width: 4px;
+}
+.textarea::-webkit-scrollbar-track {
+	background: transparent;
+}
+.textarea::-webkit-scrollbar-thumb {
+	background: rgb(77, 77, 77);
+	border-radius: 100px;
+}
+.textarea:hover,
+.input:hover {
+	box-shadow: 0 0 5px rgba(136, 67, 255, 0.7);
+}
+.textarea:focus,
+.input:focus {
+	border-color: #8743FF;
+}
+
+.inpRadio {
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	width: 0.01px;
+}
+
+.custom {
+	display: flex;
+	align-items: center;
+	position: relative;
+	gap: 6px;
+	cursor: pointer;
+}
+
+.customRadio,
+.customRadio::before {
+	display: block;
+	border-radius: 100%;
+	transition: all .2s;
+}
+
+.customRadio {
+	width: 20px;
+	height: 20px;
+	background-image: linear-gradient(90deg, #30363D, #30363D),
+	linear-gradient(270deg, #8743FF 0%, #D8C2FF 100%);
+	background-clip: padding-box, border-box;
+	background-origin: border-box;
+	border: 1px solid transparent;
+	padding: 5px;
+	position: relative;
+}
+
+.customRadio::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1px;
+	height: 1px;
+	background: linear-gradient(270deg, #8743FF 0%, #D8C2FF 100%);
+	opacity: 0;
+	visibility: hidden;
+}
+
+.inpRadio:checked + .customRadio::before {
+	width: 10px;
+	height: 10px;
+	opacity: 1;
+	visibility: visible;
+}
+
+.text {
+	color: rgba(255, 255, 255, 0.5);
+	transition: all .2s;
+}
+
+.inpRadio:checked ~ .text {
+	color: #fff;
+}
+

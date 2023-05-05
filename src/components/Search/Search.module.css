@@ -1,0 +1,28 @@
+.cards {
+	padding: 96px 0 0;
+}
+
+.users,
+.listCards {
+	display: grid;
+	gap: 16px;
+}
+.listCards {
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	margin: 0 0 24px;
+}
+
+.users {
+	grid-template-columns: repeat(auto-fit, minmax(220px, 245px));
+}
+
+.selects {
+	display: flex;
+	gap: 12px;
+	margin: 0 0 24px;
+}
+
+.slider {
+	width: 100%;
+	padding: 0 0 47px;
+}

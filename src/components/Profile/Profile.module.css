@@ -1,0 +1,73 @@
+.profile {
+	padding: 96px 0 0;
+	margin: 0 0 40px;
+}
+
+.profileTop,
+.links,
+.buttons,
+.followItem,
+.smallBtns,
+.listLinks  {
+	display: flex;
+	/* align-items: center; */
+}
+
+.buttons {
+	margin: 5px 0 0;
+}
+
+.profileTop {
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.followItem {
+	flex-direction: column;
+	align-items: flex-start;
+	margin: 0 16px 0 0;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 18px;	
+}
+
+.followTitle {
+	color: var(--white05Color);
+	font-weight: 400;
+	margin: 2px 0 0;
+}
+
+.links {
+	gap: 24.7px;
+	margin-bottom: 8px;
+}
+
+.smallBtns {
+	margin: 0 0 0 12px;
+	gap: 8px;
+}
+
+.description {
+	max-width: 1061px;
+}
+
+.listCards {
+	padding: 0 0 51px;
+}
+
+.listLinks {
+	gap: 24px;
+	margin: 0 0 24px;
+}
+
+.listLinks a {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	color: var(--white05Color);
+	transition: all .2s;	
+}
+
+.listLinks a:hover {
+	color: #fff;
+}

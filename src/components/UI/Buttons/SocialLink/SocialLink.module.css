@@ -1,0 +1,13 @@
+.link {
+	line-height: 18px;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	padding: 5px 0;
+	border-bottom: 2px solid transparent;
+	color: #fff;
+}
+
+.link:hover {
+	border-color: #8743FF;
+}

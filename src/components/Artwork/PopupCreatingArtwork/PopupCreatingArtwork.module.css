@@ -1,0 +1,31 @@
+.list {
+margin: 0 0 24px;
+}
+
+.item,
+.itemTitle {
+	display: flex;
+	align-items: center;
+}
+
+.item {
+	margin: 0 0 10px;
+	gap: 10px;
+}
+
+.item:last-child {
+	margin: 0;
+}
+
+.itemTitle {
+	width: 100%;
+	max-width: 91px;
+	gap: 6px;
+	line-height: 18px;
+}
+
+.itemTitle img { 
+	width: 20px;
+	height: 20px;
+}
+
